@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;400;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    list-style-type: none;
+  }
+}
+
+@layer components {
+  .bannerIcon {
+    @apply w-16 h-16 shadow-shadowTwo  dark:bg-black bg-opacity-25 dark:text-gray-200 text-xl inline-flex items-center justify-center rounded-md hover:text-designColor dark:shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all dark:hover:text-designColor cursor-pointer duration-300;
+  }
+  .resumeLi {
+    @apply w-full h-20 font-semibold tracking-widest shadow-shadowTwo hover:bg-designColor hover:text-white dark:hover:bg-opacity-5 dark:shadow-shadowOne dark:bg-black dark:bg-opacity-20   text-xl text-gray-600 dark:text-gray-300 flex justify-center cursor-pointer  duration-300 items-center border-[3px] rounded-lg;
+  }
+  .bgOpacity {
+    @apply bg-black bg-opacity-40;
+  }
+  .contactInput {
+    @apply w-full h-12 rounded-lg border-b-[1px] border dark:border-none dark:border-b-gray-600 dark:bg-[#191b1e] dark:text-lightText px-4 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300;
+  }
+  .contactTextArea {
+    @apply w-full rounded-lg border-b-[1px] border dark:border-none dark:border-b-gray-600 dark:bg-[#191b1e] dark:text-lightText px-4 py-2 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300 resize-none;
+  }
+  .active {
+    @apply text-designColor font-semibold dark:text-white;
+  }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
