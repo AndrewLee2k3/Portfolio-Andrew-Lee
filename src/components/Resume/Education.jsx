@@ -1,4 +1,4 @@
-import { educationData, exprencesData } from "../../data/data";
+import { educationData, academicAchievements } from "../../data/data";
 import ItemCard from "./components/ItemCard";
 import ContentCard from "./components/ContentCard";
 const Education = () => {
@@ -10,8 +10,8 @@ const Education = () => {
         stageItem="2021-2023"
       />
       <ItemCard
-        data={exprencesData}
-        titleItem="Exprences"
+        data={academicAchievements}
+        titleItem="Academic Achievements"
         stageItem="2021-2023"
       />
     </ContentCard>

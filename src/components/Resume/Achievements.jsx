@@ -6,12 +6,12 @@ const Achievement = () => {
     <ContentCard>
       <ItemCard
         data={exprencesData}
-        titleItem="Company Experience"
+        titleItem="Achievements"
         stageItem="2021-2023"
       />
       <ItemCard
         data={exprencesData}
-        titleItem="Job Experience"
+        titleItem="Achievements"
         stageItem="2021-2023"
       />
     </ContentCard>

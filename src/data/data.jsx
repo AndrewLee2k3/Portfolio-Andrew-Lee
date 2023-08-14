@@ -2,6 +2,7 @@ import { AiFillAppstore } from "react-icons/ai";
 import { FaMobile, FaGlobe } from "react-icons/fa";
 import { SiProgress, SiAntdesign } from "react-icons/si";
 import { projectOne, projectTwo, projectThree } from "@/assets";
+import { logoFPTEdu, logoUdemy } from "@/assets";
 // Features Data
 export const featuresData = [
   {
@@ -83,24 +84,74 @@ export const projectsData = [
 export const educationData = [
   {
     id: 1,
-    title: "BSc in Computer Science",
-    subTitle: "University of DVI (2006 - 2010)",
-    result: "3.90/4",
-    des: "The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture.",
+    logo: logoFPTEdu,
+    title: "FPT Polytechnic",
+    subTitle: "FPT Polytechnic College (2021 - 2023)",
+    result: null,
+    des: "I have received an exceptional education at FPT Polytechnic College, where I not only attained remarkable academic achievements but also further developed my logical reasoning and coding abilities, gaining valuable hands-on experience in the process.",
   },
   {
     id: 2,
-    title: "BSc in Computer Science",
-    subTitle: "University of DVI (2006 - 2010)",
-    result: "3.90/4",
-    des: "The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture.",
+    title: "Study on Udemy",
+    logo: logoUdemy,
+    subTitle: "Online Courses (2022 - 2023)",
+    result: null,
+    des: "Udemy greatly enriched my journey, enhancing my coding skills through diverse courses. This mix of structured learning and self-driven exploration equips me with technical proficiency and practical application, ready to thrive in the dynamic tech industry.",
+  },
+];
+export const academicAchievements = [
+  {
+    id: 1,
+    title: "FPT Polytechnic",
+    subTitle: "FPT Polytechnic College (2021 - 2023)",
+    result: "GPA: 3.60/4",
+    des: "At FPT Polytechnic, I graduated with excellence, a testament to my dedication to learning. The curriculum enriched my coding skills and honed my algorithmic and logical thinking, paving the way for my growth into a proficient and accomplished programmer.",
+  },
+  {
+    id: 2,
+    title: "Study on Udemy",
+    subTitle: "Online Courses (2022 - 2023)",
+    result: "Elevating Coding Proficiency",
+    des: "Udemy has been instrumental in my development. I've efficiently acquired and applied coding skills to my ongoing project, enhancing my proficiency in ReactJs, NodeJs, frontend and backend frameworks, and propelling my growth within the programming industry.",
+  },
+];
+
+export const achievements = [
+  {
+    id: 1,
+    title: "GOLDEN BEE AWARDS",
+    subTitle: "FPT Polytechnic College (2021 - 2023)",
+    result: "Semester 5",
+  },
+  {
+    id: 2,
+    title: "Good Student",
+    subTitle: "FPT Polytechnic College (2021 - 2023)",
+    result: "Semester 2",
   },
   {
     id: 3,
-    title: "BSc in Computer Science",
-    subTitle: "University of DVI (2006 - 2010)",
-    result: "3.90/4",
-    des: "The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture.",
+    title: "Excellent Student",
+    subTitle: "FPT Polytechnic College (2021 - 2023)",
+    result: "Semester 3",
+  },
+  {
+    id: 4,
+    title: "Excellent Student",
+    subTitle: "FPT Polytechnic College (2021 - 2023)",
+    result: "Semester 4",
+  },
+  {
+    id: 5,
+    title: "Excellent Student",
+    subTitle: "FPT Polytechnic College (2021 - 2023)",
+    result: "Semester 5",
+  },
+  {
+    id: 6,
+    title: "Excellent Student",
+    subTitle: "FPT Polytechnic College (2021 - 2023)",
+    result: "Semester 6",
   },
 ];
 
@@ -110,77 +161,70 @@ export const exprencesData = [
     title: "Sr. Software Engineer",
     subTitle: "Google Out Tech - (2017 - Present)",
     result: "USA",
-    des: "Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up.",
+    des: "I have received an exceptional education at FPT Polytechnic College, where I not only attained remarkable academic achievements but also further developed my logical reasoning and coding abilities, gaining valuable hands-on experience in the process.",
   },
   {
     id: 2,
     title: "Sr. Software Engineer",
     subTitle: "Google Out Tech - (2017 - Present)",
     result: "USA",
-    des: "Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up.",
-  },
-  {
-    id: 3,
-    title: "Sr. Software Engineer",
-    subTitle: "Google Out Tech - (2017 - Present)",
-    result: "USA",
-    des: "Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up.",
+    des: "I have received an exceptional education at FPT Polytechnic College, where I not only attained remarkable academic achievements but also further developed my logical reasoning and coding abilities, gaining valuable hands-on experience in the process.",
   },
 ];
 
 export const skillsData = {
-  design: [
+  be: [
     {
       id: 1,
-      title: "Photoshop",
-      percent: "100%",
+      title: "Node Js",
+      percent: "95%",
     },
     {
       id: 2,
-      title: "Figma",
+      title: "Express Js",
       percent: "90%",
     },
     {
       id: 3,
-      title: "Adobe XD.",
-      percent: "60%",
+      title: "MySQL, PostgreSQL, MongoDB",
+      percent: "80%",
     },
     {
       id: 4,
-      title: "Adobe Illustrator",
-      percent: "70%",
+      title: "APIs",
+      percent: "90%",
+    },
+    {
+      id: 5,
+      title: "Deployment",
+      percent: "80%",
+    },
+  ],
+
+  fe: [
+    {
+      id: 1,
+      title: "HTML 5, CSS3, JavaScript",
+      percent: "95%",
+    },
+    {
+      id: 2,
+      title: "Responsive Design ",
+      percent: "90%",
+    },
+    {
+      id: 3,
+      title: "React Js",
+      percent: "95%",
+    },
+    {
+      id: 4,
+      title: "Framework FE",
+      percent: "90%",
     },
     {
       id: 5,
       title: "Design",
-      percent: "95%",
-    },
-  ],
-
-  dev: [
-    {
-      id: 1,
-      title: "REACT",
-      percent: "100%",
-    },
-    {
-      id: 2,
-      title: "HTML 5",
-      percent: "95%",
-    },
-    {
-      id: 3,
-      title: "CSS3",
-      percent: "90%",
-    },
-    {
-      id: 4,
-      title: "JAVASCRIPT",
-      percent: "95%",
-    },
-    {
-      id: 5,
-      title: "SOFTWARE",
       percent: "90%",
     },
   ],

@@ -7,9 +7,12 @@ import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
-import avatar from './images/avatar.png'
-
+import avatar from "./images/avatar.png";
+import logoFPTEdu from "./images/Resume/FPT_Education_logo.svg.png";
+import logoUdemy from './images/Resume/Udemy_logo.svg.png'
 export {
+  logoFPTEdu,
+  logoUdemy,
   avatar,
   logo,
   bannerImg,

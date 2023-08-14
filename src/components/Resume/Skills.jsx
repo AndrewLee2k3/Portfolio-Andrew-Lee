@@ -5,14 +5,14 @@ const Skills = () => {
   return (
     <ContentCard>
       <SkillItem
-        data={skillsData.design}
-        title="Design Skill"
+        data={skillsData.fe}
+        title="Front-End Skill"
         stage="2021-2023"
       />
 
       <SkillItem
-        data={skillsData.dev}
-        title="Development Skill"
+        data={skillsData.be}
+        title="Back-End Skill"
         stage="2021-2023"
       />
     </ContentCard>
