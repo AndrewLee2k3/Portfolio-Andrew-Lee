@@ -34,3 +34,15 @@
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background-color: #e9e8e8;
+  font-weight: bold;
+  color: #f9743e;
+  border-color: #e9e8e8;
+  cursor: not-allowed;
+
+}
