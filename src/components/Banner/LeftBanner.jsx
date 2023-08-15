@@ -24,7 +24,7 @@ const LeftBanner = () => {
           a <span>{text}</span>
           <Cursor
             cursorBlinking="false"
-            cursorStyle="💻💖"
+            cursorStyle="💻"
             cursorColor="#f9743e"
           />
         </h2>
