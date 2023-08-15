@@ -91,8 +91,8 @@ const Testimonial = () => {
   return (
     <Section id="testimonial" title="What Client Say" des="Testimonial">
       <div className="max-w-6xl mx-auto">
-        <Slider {...settings}>
-          <div className="w-full ">
+        <Slider {...settings} >
+          <div className="w-full">
             <div className="w-full p-5 h-auto flex flex-col lgl:flex-row justify-between">
               <div
                 className="flex flex-col md:flex-row lgl:flex-col justify-center 

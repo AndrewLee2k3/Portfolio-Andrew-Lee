@@ -11,7 +11,7 @@ const Education = () => {
       />
       <ItemCard
         data={academicAchievements}
-        titleItem="Academic Achievements"
+        titleItem="Achievements"
         stageItem="2021-2023"
       />
     </ContentCard>
